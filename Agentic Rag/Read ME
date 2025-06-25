@@ -1,0 +1,5 @@
+Intelligent LLM Powered Retrieval and Search
+• Built an Agentic RAG system using CrewAI and LangChain, integrating local PDF knowledge with live web scraping for contextaware LLM responses.
+• Developed a GenAI pipeline with PDF ingestion,HuggingFace embeddings, and similarity search via FAISS; enabled dynamic routing between local context and web agents (Serper, ScrapeWebsiteTool).
+• Employed multi-agent architecture using CrewAI agents for search and scraping, powered by Gemini 1.5 Flash, ensuring accurate and concise real-time data retrieval.
+• Integrated OpenAI, Groq (LLaMA-3-70B),and Gemini models for LLM reasoning with retry logic, session memory, and vector store caching using chunk-hash deduplication.
